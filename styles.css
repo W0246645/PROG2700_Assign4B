@@ -1,0 +1,54 @@
+body {
+    user-select: none;
+}
+
+table, th, td {
+    border: 1px solid black;
+    color: transparent;
+}
+
+table {
+    border-spacing: 0;
+}
+
+.grid {
+    padding: 0;
+    margin: 0;
+    width: 2.5rem;
+    height: 2.5rem;
+    text-align: center;
+}
+
+.grey {
+    background-color: gray;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.white {
+    background-color: white;
+}
+
+.button {
+    display: inline-block;
+    color: black;
+    background-color: #F5F5F5;
+    border: 0.1rem solid black;
+    margin: 0.3rem;
+    padding: 0.1rem 0.4rem 0.1rem 0.4rem;
+    border-radius: 0.4rem;
+    box-shadow: 0.15rem 0.15rem gray;
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    line-height: 1.5rem;
+}
+
+.error {
+    border: 1px solid red;
+    color: red;
+}
